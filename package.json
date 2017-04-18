@@ -1,0 +1,15 @@
+{
+  "name": "ibms",
+  "version": "1.0.0",
+  "description": "Website Ibms",
+  "main": "index.html",
+  "author": "ibms",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

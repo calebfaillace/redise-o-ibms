@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.slide {
+  position: relative;
+  min-height: 90vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+#title {
+   background-image: url("../img/dominicales.jpg");
+   background-attachment: fixed;  
+}
+#title h1{
+	color: white;
+	font-weight: 800;
+	margin-top: 22.5%;
+	font-size: 50px;
+}
+#title ul{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+#title p{
+	color: white;
+}
+.fecha-content span{
+	vertical-align: middle;
+}
+.day-number{
+	font-size: 70px;
+	font-weight: 800;
+}
+.month{
+	font-size: 20px;
+}
+.title-event{
+color: #0194ca;}
+
+.bg-iglesia{
+	background: black;
+	background-image: url(../img/iglesia.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.bg-gray{
+	background: #3f3f3f;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	height: 350px;
+	padding-left: 80px;
+}
+.bg-gray h2{
+	color: white;
+	font-weight: 800;
+}
+.bg-gray p{
+	color: white;
+	font-size: 17px;
+	font-weight: 100;
+	margin-top: 2em;
+}
+.posts a{
+	text-decoration: none;
+}
+#title2 {
+   background-image: url("../img/visitanos2.jpg");
+   background-attachment: fixed;  
+}
+#title2 h2{
+	color: white;
+	font-weight: 800;
+	margin-top: 16.5%;
+}
+#title2 p{
+	font-size: 50px;
+	font-weight: 800;
+	color: white;
+}
+#title2 span{
+	color: white;
+	font-size: 25px;
+	font-weight: 100;
+}
+.p-style{
+	line-height: 30px;
+}
