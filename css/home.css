@@ -6,10 +6,11 @@ body{
 
 #video-home{
 position: relative;
+max-height: 650px;
 overflow: hidden;
 padding: 0;
 margin: 0;
-max-height: 720px;
+
 }
 #video-home .overlay-video{
 	background: black;
@@ -17,12 +18,16 @@ max-height: 720px;
 	width: 100%;
 	height: 100%;
 	opacity: .7;
-	overflow: hidden;
 	z-index: 99;
 }
 #video-home video{
-height: 100%;
-height: 100%;}
+	height: 100%;
+}
+@media screen and (min-width: 1280px){
+	#video-home video{
+		width: 100%;
+	}
+}
 
 #video-home .bienvenido{
 	position: absolute;
@@ -55,7 +60,7 @@ height: 100%;}
 }
 .slide {
   position: relative;
-  min-height: 90vh;
+  /*min-height: 47vh;*/
   width: 100vw;
   box-sizing: border-box;
   transform-style: inherit;
@@ -94,7 +99,7 @@ height: 100%;}
 #title h1{
 	color: white;
 	font-weight: 800;
-	margin-top: 16.5%;
+	margin-top: 1em;
 	font-size: 50px;
 }
 #title ul{
@@ -164,15 +169,67 @@ color: #0194ca;}
 #title2 h2{
 	color: white;
 	font-weight: 800;
-	margin-top: 16.5%;
+	margin-top: 2em;
 }
 #title2 p{
 	font-size: 50px;
 	font-weight: 800;
 	color: white;
 }
-#title2 span{
+#title2 .p2{
 	color: white;
 	font-size: 25px;
 	font-weight: 100;
+	margin-bottom: 2em;
+}
+@media screen and (max-width: 1025px){
+	#title2 h2{
+		color: white;
+		font-weight: 800;
+		margin-top: 10.5%;
+	}
+}
+@media screen and (max-width: 769px){
+
+	#video-home{
+	position: relative;
+	max-height: 450px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+
+	}
+	#video-home .bienvenido{
+		position: absolute;
+		top: 20%;
+		width: 100%;
+		text-align: center;
+		z-index: 999;
+	}
+	#video-home .bienvenido img{
+		width: 60%;
+	}
+	.bg-gray{
+		padding-left: 25px;
+		text-align: justify;
+	}
+
+}
+@media screen and (max-width: 736px){
+	#event h2, #event p{
+		text-align: center !important;
+	}
+}
+@media screen and (max-width: 415px){
+	#video-home .bienvenido{
+		top: 33%;
+	}
+	#title2 p{
+		font-size: initial;
+	}
+}
+@media screen and (max-width: 321px){
+	.bg-gray{
+		height: 620px;
+	}
 }

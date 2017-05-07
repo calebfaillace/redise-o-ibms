@@ -20,3 +20,12 @@ $(document).ready(function(){
 		}
 	})
 })
+
+var button = document.querySelector('.menu-icon');
+button.addEventListener('click', function (){
+  button.classList.toggle('open');
+});
+
+$('.menu-icon').click(function(){
+	$('#menu-head').toggleClass('view-menu')
+})
