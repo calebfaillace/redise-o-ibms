@@ -9,7 +9,7 @@ body{
 .slide{
   position: relative;
   /*min-height: 90vh;*/
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   transform-style: inherit;
 }
@@ -142,7 +142,48 @@ color: #0194ca;}
 	color: white;
 	font-weight: 800;
 }
+.cont-inf p{
+	font-size: 16px;
+	font-weight: 100;
+	color: white;
+	margin-bottom: 0;
+}
+.cont-inf h3{
+	color: white;
+	margin-top: 0;
+}
+.r51{
+	background: rgb(51,51,51);
+	padding: 1em;
+}
+.r66{
+	background: rgb(66,66,66);
+	padding: 1em;
+}
+.r33{
+	background: rgb(33,87,115);
+	padding: 1em;
+}
+.r49{
+	background: rgb(49,130,172);
+	padding: 1em;
+}
+.map-container {
+	width: 100%;
+}
+.map-container iframe{
+	width: 100%;
+	display: block;
+	pointer-events: none;
+	position: relative; /* IE needs a position other than static */
+	height: 450px;
+}
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+iframe{
 
+}
 input{
 	display: block;
 }

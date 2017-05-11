@@ -7,7 +7,7 @@ body{
 .slide {
   position: relative;
   /*min-height: 47vh;*/
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   transform-style: inherit;
 }
