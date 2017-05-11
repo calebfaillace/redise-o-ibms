@@ -142,9 +142,56 @@ color: #0194ca;}
 	color: white;
 	font-weight: 800;
 }
+#events .evento{
+	border-top: 1px solid rgba(200,200,200,.5);
+	border-bottom: 1px solid rgba(200,200,200,.5);
+	text-align: center;
+}
+#events .evento div{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	text-align: center;
+}
+.evento-imagen{
+	width: 30%;
+}
+.evento-imagen figure img{
+	width: 100%;
+}
+.evento-fecha{
+	text-align: center;
+	width: 20%;
+	color: gray;
+}
+.evento-fecha h2{
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.evento-fecha h3{
+margin-top: 0;}
+.evento-descripcion{
+	width: 40%;
+	text-align: justify;
+}
+.evento-descripcion h2{
+	color: #d14f41;
 
-input{
-	display: block;
+}
+@media screen and (max-width: 700px){
+	#events .evento div{
+		display: block;
+		text-align: center;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.evento-fecha{
+		width: 100%;
+	}
+	.evento-descripcion{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 481px){
 	#title h1{
