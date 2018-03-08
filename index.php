@@ -18,7 +18,7 @@
 	
 	<header id="header">
 		<div id="logo-header">
-			<img src="img/ibms-logo2.png" alt="ibms" >
+			<a href="index.html"><img src="img/ibms-logo2.png" alt="ibms" ></a>
 		</div>
 		
 		<div id="menu-head">
